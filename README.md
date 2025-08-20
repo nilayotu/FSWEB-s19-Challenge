@@ -32,7 +32,7 @@ Hedef:
 
 # Mimari Zorunluluklar
 
- - Apimizi hazırlarkan öncelikle tweet, user, comment, like, retweet gibi özellikleri ekleyebilmek adına veritabanımızın nasıl olması gerektiği ile ilgili bir hazırlık yapmalıyız.
+ - Apimizi hazırlarkan öncelikle tweet, users, comment, like, retweet gibi özellikleri ekleyebilmek adına veritabanımızın nasıl olması gerektiği ile ilgili bir hazırlık yapmalıyız.
    Veritabanı dizaynı proje için yapmamız gereken ilk adım.
  - Controller/Service/Repository/Entity katmanlı mimarisi üzerinde sisteminizi dizayn etmelisiniz. 
  - Sisteminiz için tek bir merkezden Global Exception Handling yapmanız beklenmektedir.
