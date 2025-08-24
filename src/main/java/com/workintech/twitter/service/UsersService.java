@@ -7,9 +7,9 @@ import com.workintech.twitter.dto.UsersUpdateDto;
 import java.util.List;
 
 public interface UsersService {
-    UsersResponseDto create(UsersRequestDto requestDto);
-    UsersResponseDto getById(Long id);
-    List<UsersResponseDto> getAll();
-    UsersResponseDto update(Long id, UsersUpdateDto updateDto);
-    void delete(Long id);
+    UsersResponseDto createUser(UsersRequestDto requestDto);
+    UsersResponseDto getUserById(Long id);
+    List<UsersResponseDto> getAllUsers();
+    UsersResponseDto updateUser(Long id, UsersUpdateDto updateDto);
+    void deleteUser(Long id);
 }
